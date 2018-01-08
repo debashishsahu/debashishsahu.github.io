@@ -1,6 +1,4 @@
 $(function(){
-	
-
 	//Showing blog items
 	$('#blog-items .more-info').click(function(e){
 		e.preventDefault();
@@ -161,3 +159,15 @@ $(function(){
 
 	
 });
+	
+	function showPDF(pdfId, pdfTitle){
+		$("#pdfModal .modal-body").empty();
+		$("#pdfModal .modal-body").append('<iframe style="width:100%; height:620px;" src="//e.issuu.com/embed.html#'+pdfId+'" frameborder="0" allowfullscreen></iframe>');
+
+		var modalHeader = document.getElementById("modalTitle");  
+    	modalHeader.innerHTML = pdfTitle;
+
+		setTimeout(function(){
+			$("#pdfModal").modal();
+		},200)
+	}
