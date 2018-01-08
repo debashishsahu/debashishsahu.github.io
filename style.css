@@ -1,18 +1,21 @@
 /******** LAYOUT & GENERIC CLASSES ********/
 
 /* basic elements styling or re-styling (boostap) */
-body {padding-bottom: 40px;}
+body {
+	font-family: 'Noto Sans', sans-serif;
+	padding-bottom: 40px;
+}
 #content {background-color: #fff;}
 #main-content {position: relative;}
-a, a:visited, a:active {outline: none!important;}
+a, a:visited, a:active {color: #F85758; outline: none!important;}
 a:hover {text-decoration: none;}
 h1, h2, h3, h4, h5, h6 {color: #545253; font-weight: normal;}
-h1 {font-size: 50px; margin-top: 0; margin-bottom: 10px; line-height: 55px;}
+h1 {margin-top: 0; margin-bottom: 10px; }
 h2 {margin-bottom: 20px;}
 hr {border-top: 1px solid #eee;border-bottom: 1px solid #fcfcfc;}
 #footer {padding-top: 20px; text-align: center; margin-top: 5px; }
 .well {border-color: #ccc; margin-bottom: 30px; padding: 10px 30px;}
-.well h3 {font-size: 30px;}
+.well h3 {font-size: 22px;}
 .icon-btn {display: inline-block; padding: 6px 0 0 10px; border-radius: 5px; height: 36px; width: 33px; margin-right: 5px;background-color: #0088CC;}
 .icon-btn,.btn-primary {background-image: none; border: none; text-shadow: none; box-shadow: none;}
 .tooltip.in {opacity: 1; filter: alpha(opacity=100);}
@@ -59,7 +62,10 @@ hr {border-top: 1px solid #eee;border-bottom: 1px solid #fcfcfc;}
 /* blog & portfolio blocks */
 .blogitem, .portfolioitem {position: relative; height: 270px; margin-bottom: 30px;}
 .blogitem h3 {position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,.5); color: #fff; display: block; text-align: center; padding: 4px 10px 6px; margin-bottom: 0; font-size: 15px; line-height: 20px;}
-.portfolioitem h3 { margin-top: 5px; margin-bottom: 21px; color: #fff; text-align: center; font-size: 20px; line-height: 25px;}
+.portfolioitem h3 { margin-top: 5px; margin-bottom: 21px; color: #fff; text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;}
 .blogitem .blogitem-date {position: absolute; top: 0; left: 0; width: 25px; height: 35px; padding: 5px 10px; background: rgba(0,0,0,.5); color: #fff; text-align: center;}
 .blogitem .blogitem-date .month, .blogitem .blogitem-date .day {font-weight: bold; display: block; font-size: 12px; line-height: 16px;}
 .blogitem .blogitem-date .day {font-size: 16px;}
@@ -71,7 +77,10 @@ hr {border-top: 1px solid #eee;border-bottom: 1px solid #fcfcfc;}
 .blogitem .blogitem-hoverinfo, .portfolioitem .portfolioitem-hoverinfo {color: #fff;}
 .blogitem-content .pager, .portfolioitem-content .pager { margin-top: 30px;}
 .blogitem .blogitem-hoverinfo, .portfolioitem .portfolioitem-hoverinfo {background-color: #0088CC}
-#portfolio-back, #blog-back {margin-bottom: 30px;}
+#portfolio-back, #blog-back {margin-bottom: 30px;color: #545253;
+    font-weight: 600;
+    background-color: transparent;}
+
 .blogmeta {font-size: 12px;}
 .blogmeta div {display: inline-block; margin-right: 10px;}
 .blogmeta .glyphicons {padding: 7px 2px 5px 15px;}
@@ -117,7 +126,7 @@ hr {border-top: 1px solid #eee;border-bottom: 1px solid #fcfcfc;}
 .timeline-item-trigger span i:before {width: 12px; height: 12px;}
 .timeline-item-trigger span {display: block; margin-left: 13px; height: 15px; overflow: hidden; margin-top: 21px;}
 .timeline-item-title {cursor: pointer;}
-.timeline-item-content h3{font-size: 25px; line-height: 30px;}
+.timeline-item-content h3{font-size: 22px; line-height: 30px;}
 .timeline-arrow {display: block; position: relative;}
 .timeline-arrow i {display: block; background: #f9f9f9; position: absolute; height: 10px; width: 10px; top: 37px; left: -6px; border-left: 1px solid #ccc; border-top: 1px solid #ccc; left: 145px; z-index: 10; transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-45); }
 .timeline-item h4 {margin-bottom: 10px;}
