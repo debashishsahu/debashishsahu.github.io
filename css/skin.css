@@ -55,7 +55,7 @@ a:hover {
 #resumenav li.active a {
   background-color: transparent !important;
     color: #545253;
-    border-left: 2.5px solid #545253;
+    border-left: 2.5px solid #F85758;
     font-weight: 600;
 }
 .nav-pills>li>a{
@@ -64,7 +64,7 @@ a:hover {
 .nav-pills > .active > a {
   background-color: transparent !important;
     color: #545253;
-    border-bottom: 2.5px solid #545253;
+    border-bottom: 2.5px solid #F85758;
     font-weight: 600;
     border-radius: 0;
 }
