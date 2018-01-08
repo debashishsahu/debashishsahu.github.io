@@ -106,7 +106,7 @@ hr {border-top: 1px solid #eee;border-bottom: 1px solid #fcfcfc;}
 .author h2 {margin-top: 0;}
 
 /* timeline blocks */
-.timeline-item-trigger span i:before {background-color: #0088CC; display: inline-block; border: 6px solid #0088CC; border-radius: 50%; font-size: 12px;}
+.timeline-item-trigger span i:before {background-color: #0088CC; display: inline-block; border: 6px solid #0088CC; border-radius: 50%; font-size: 19px;}
 .timeline {background: url(images/timeline.gif) 109px 0 repeat-y;}
 .dark .timeline {background-image: url(images/timelinedark.gif);}
 .timeline-item {position: relative; margin-bottom: 30px; overflow: hidden;}
