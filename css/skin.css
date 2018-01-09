@@ -18,6 +18,7 @@ a:hover {
 .portfolioitem .portfolioitem-hoverinfo {
   background-color: rgba(85, 85, 85, 0.9);
   color: #fff;
+  border-radius: 5px;
 }
 #resumenav a {
   color: #545253;
@@ -147,8 +148,8 @@ body {
 }*/
 @media (max-width: 767px) {
   .section .section-title {
-    border-bottom: 5px solid #9c383a;
-    border-top: 5px solid #9c383a;
+    /*border-bottom: 5px solid #9c383a;
+    border-top: 5px solid #9c383a;*/
   }
 }
 
@@ -162,4 +163,9 @@ body {
 }
 .hyperlink:hover{
   cursor: pointer;
+}
+
+#pdfModal .modal-title{
+    font-size: 14px;
+    font-weight: 600;
 }
