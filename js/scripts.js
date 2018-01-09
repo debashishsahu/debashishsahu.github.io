@@ -157,9 +157,19 @@ $(function(){
 		conditionalScripts();
 	});
 
-	
+	var appearAnim = 'zoomIn animated';
+	var disappearAnim = 'zoomOut animated';
+	$('#pdfModal').on('show.bs.modal', function (e) {
+    	$('#pdfModal').removeClass(disappearAnim);
+    	$('#pdfModal').addClass(appearAnim);
+	})
+	$('#pdfModal').on('hide.bs.modal', function (e) {
+    	$('#pdfModal').removeClass(appearAnim);
+    	$('#pdfModal').addClass(disappearAnim);
+	})
 });
 	
+
 	function showPDF(pdfId, pdfTitle){
 		$("#pdfModal .modal-body").empty();
 		$("#pdfModal .modal-body").append('<iframe style="width:100%; height:620px;" src="//e.issuu.com/embed.html#'+pdfId+'" frameborder="0" allowfullscreen></iframe>');
