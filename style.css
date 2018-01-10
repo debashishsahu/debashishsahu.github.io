@@ -199,12 +199,14 @@ footer{
     transition: all 0.3s ease;
 }
 
+/*
 .modal.fade  {
 	top: 0;
    -webkit-transition: unset;
    -moz-transition: unset;
    transition: unset;
 }
+*/
 /******** DARK SKIN ********/
 
 body.dark {color:#eee; background: #1b1b1b;}

@@ -157,16 +157,16 @@ $(function(){
 		conditionalScripts();
 	});
 
-	var appearAnim = 'zoomIn animated';
-	var disappearAnim = 'zoomOut animated';
-	$('#pdfModal').on('show.bs.modal', function (e) {
-    	$('#pdfModal').removeClass(disappearAnim);
-    	$('#pdfModal').addClass(appearAnim);
-	})
-	$('#pdfModal').on('hide.bs.modal', function (e) {
-    	$('#pdfModal').removeClass(appearAnim);
-    	$('#pdfModal').addClass(disappearAnim);
-	})
+//	var appearAnim = 'zoomIn animated';
+//	var disappearAnim = 'zoomOut animated';
+//	$('#pdfModal').on('show.bs.modal', function (e) {
+//    	$('#pdfModal').removeClass(disappearAnim);
+//    	$('#pdfModal').addClass(appearAnim);
+//	})
+//	$('#pdfModal').on('hide.bs.modal', function (e) {
+//    	$('#pdfModal').removeClass(appearAnim);
+//    	$('#pdfModal').addClass(disappearAnim);
+//	})
 });
 	
 
