@@ -1,4 +1,11 @@
 $(function(){
+	var startDate = new Date('12/2/2013');
+	var currentDate = new Date();
+	var diffInDays = (currentDate.getTime() - startDate.getTime())/1000/60/60/24;
+	var diffInYears = diffInDays/365;
+	var noOfYears = Math.round( diffInYears * 10) / 10;
+
+	$('#designExp').text(noOfYears.toFixed(1));
 	//Showing blog items
 	$('#blog-items .more-info').click(function(e){
 		e.preventDefault();
